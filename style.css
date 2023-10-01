@@ -1,0 +1,94 @@
+@font-face {
+  font-family: 'CursedFont';
+  src: url('./cursed-timer-ulil-font/CursedTimerUlil-Aznm.ttf') format('truetype');
+}
+:root {
+    font-size: 62.5%;
+}
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+body {
+    background: url("basketball-back.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1 {
+    font-size: x-large;
+    color: #F59E0B;
+    margin: 2rem 0rem;
+}
+.scoreboard-box {
+    background: #1b244a;
+    height: 25%;
+    width: 30%;
+    border-radius: 1rem;
+    display: flex;
+    overflow: hidden;
+}
+.team-box {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.team-box h2 {
+    font-size: 2.6rem;
+    color: #eeeeee;
+}
+.team-box .score {
+    background: #080001;
+    width: 40%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+}
+.score p {
+    font-family: 'CursedFont', sans-serif;;
+    font-size: 3.4rem;
+    color: #f94f6d;
+}
+.btn-container {
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+.btn-container button {
+    background: inherit;
+    color: #9aabd8;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 0.3rem;
+    border: 1px solid #9aabd8;
+    cursor: pointer;
+}
+.btn-container button:hover {
+    border-color: #F59E0B;
+    color: #F59E0B;
+}
+span {
+    background: #ffffff56;
+    width: 2px;
+    height: 100%;
+}
+.new-game-btn {
+    background: #F59E0B;
+    margin: 1rem;
+    padding: 1rem 2rem;
+    border: 4px solid #9aabd8;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+.new-game-btn:hover {
+    background: #eeeeee;
+}
